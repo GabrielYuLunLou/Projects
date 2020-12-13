@@ -1,0 +1,35 @@
+#sq {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#buttonsWrapper {
+    margin-top: 40px;
+}
+
+button {
+    background-color: #ccffff;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 0px;
+    transition: 0.4s;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
